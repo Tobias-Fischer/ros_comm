@@ -157,7 +157,7 @@ void in_cb(const boost::shared_ptr<ShapeShifter const>& msg,
     // we need sleep for publisher initialization
     // otherwise the first topic will drop.
     if (g_wait_pub_init) {
-      usleep(g_wait_second * 1000000);
+      std::this_thread::sleep_for(std::chrono::microseconds(g_wait_second * 1000000));
     }
     g_advertised = true;
     
