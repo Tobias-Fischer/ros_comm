@@ -8,6 +8,8 @@
 # pragma warning(disable:4786)    // identifier was truncated in debug info
 #endif
 
+#include <sstream>
+
 #include "xmlrpcpp/XmlRpcDecl.h"
 
 #ifndef MAKEDEPEND
