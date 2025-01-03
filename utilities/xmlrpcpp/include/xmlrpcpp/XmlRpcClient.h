@@ -9,9 +9,8 @@
 #endif
 
 
-#ifndef MAKEDEPEND
-# include <string>
-#endif
+#include <string>
+#include <iostream>
 
 #include "xmlrpcpp/XmlRpcDispatch.h"
 #include "xmlrpcpp/XmlRpcSource.h"
