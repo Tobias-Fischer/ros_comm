@@ -1,4 +1,5 @@
-
+#include <iostream>
+#include <string>
 #include "xmlrpcpp/XmlRpcServerConnection.h"
 
 #include "xmlrpcpp/XmlRpcSocket.h"
